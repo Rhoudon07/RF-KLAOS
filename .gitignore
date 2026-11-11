@@ -1,0 +1,98 @@
+# ==========================================
+# Sistema Operativo
+# ==========================================
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS / Linux
+.DS_Store
+*~
+
+# ==========================================
+# Editores e IDEs
+# ==========================================
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln.docstates
+*.user
+*.userosscache
+.vs/
+
+# ==========================================
+# Compilación y Binarios (C / C++ / Rust / Go / C#)
+# ==========================================
+build/
+bin/
+obj/
+out/
+target/
+Debug/
+Release/
+x64/
+x86/
+*.exe
+*.dll
+*.so
+*.dylib
+*.o
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.a
+*.out
+*.app
+
+# ==========================================
+# Python (si se utiliza)
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+
+# ==========================================
+# Base de Datos y Datos Biométricos Locales
+# ==========================================
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.db-shm
+*.db-wal
+*.dat
+
+# Capturas temporales de cámara y fotos de prueba
+captures/
+temp_captures/
+Rostros_DB/
+*.raw
+
+# ==========================================
+# Logs, Notas y Archivos Temporales
+# ==========================================
+Idea-principal.md
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+.env
+.env.local
