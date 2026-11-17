@@ -11,7 +11,7 @@ Sistema de reconocimiento facial y control de acceso escrito en **C++ Puro (C++1
 2. **Captura de Cámara Web en Crudo (`CameraHardware`)**:
    - Captura fotogramas directamente desde la cámara web (`RGB32`, `RGB24`, `YUY2` o `NV12`) y realiza la conversión matemática propia YUV $\rightarrow$ RGB en memoria.
 
-3. **Detección de Rostro 100% Propia (`FaceEngine::detectarCara`)**:
+3. **Detección de Rostro (`FaceEngine::detectarCara`)**:
    - Calcula **Imágenes Integrales (Summed-Area Tables)** en tiempo $O(W \times H)$ para evaluar cualquier región rectangular en $O(1)$.
    - Aplica segmentación cromática epidérmica en espacio **YCbCr**, filtros geométricos tipo **Haar** (contraste ojos-pómulos y ojos-puente nasal), simetría bilateral izquierda-derecha y densidad de gradientes en ojos y boca.
 
