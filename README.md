@@ -1,4 +1,4 @@
-# RF-KLAOS — Sistema de Control de Acceso por Reconocimiento Facial (100% Código Propio)
+# RF-KLAOS — Sistema de Control de Acceso por Reconocimiento Facial
 
 Sistema de reconocimiento facial y control de acceso escrito en **C++ Puro (C++17)** sin librerías externas, sin frameworks y comunicándose directamente con el hardware del sistema operativo mediante las APIs nativas de Windows (**Win32 + Media Foundation**).
 
